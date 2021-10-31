@@ -9,3 +9,13 @@
 p {
   font-family: Lato;
 }
+
+.take-all-visible-space {
+  height: 100vh;
+}
+
+.fixed {
+  left: 0;
+  top: 0;
+  position: fixed;
+}
