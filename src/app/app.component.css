@@ -14,5 +14,11 @@
 }
 
 .pixel-overlay {
-  background-image: var(--pixel-url);
+  background-image: transparent var(--pixel-url);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
 }
