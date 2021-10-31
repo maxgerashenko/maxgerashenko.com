@@ -1,5 +1,6 @@
 * {
   --main-backbround-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/main-background.jpg');
+  --pixel-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/pixel.png');
 }
 
 p {
@@ -13,5 +14,6 @@ p {
 }
 
 .take-all-visible-space {
+  background-image: var(--pixel-url);
   height: 100vh;
 }
