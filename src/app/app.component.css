@@ -1,3 +1,9 @@
 p {
   font-family: Lato;
 }
+
+.main-content {
+  background-color: green;
+  background-image: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/main-background.jpg');
+  height: 100vw;
+}
