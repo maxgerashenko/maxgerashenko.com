@@ -1,6 +1,7 @@
 * {
   --main-backbround-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/main-background.jpg');
   --pixel-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/pixel.png');
+  --photo-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/photo.png');
 }
 
 .pixel-overlay {
@@ -19,9 +20,23 @@
   margin-bottom: -5em;
 }
 
-.main-content {
+.main-container {
   background-color: #303030;
   background-size: cover;
   background-image: var(--main-backbround-url);
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  --size: 143px;
+  background-image: var(--photo-url);
+  background-size: var(--size) var(--size);
+  position: relative;
+  border-radius: 50%;
+  width: var(--size);
+  height: var(--size);
+  border: 4px solid #fff;
+  margin-top: calc(50vh - 98px);
 }
