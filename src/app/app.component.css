@@ -3,10 +3,6 @@
   --pixel-url: url('https://cdn.jsdelivr.net/gh/maxgerashenko/maxgerashenko.com@master/src/img/pixel.png');
 }
 
-p {
-  font-family: Lato;
-}
-
 .main-content {
   background-color: #303030;
   background-size: cover;
@@ -14,6 +10,9 @@ p {
 }
 
 .take-all-visible-space {
-  background-image: var(--pixel-url);
   height: 100vh;
+}
+
+.pixel-overlay {
+  background-image: var(--pixel-url);
 }
