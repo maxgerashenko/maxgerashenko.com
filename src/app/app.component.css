@@ -15,7 +15,7 @@
   top: 0;
   position: absolute;
   background-color: hsla(0, 0%, 100%, 0.52);
-  height: 50%;
+  height: 50vh;
   width: 100%;
   margin-bottom: -5em;
 }
@@ -84,15 +84,19 @@
 /* Screen Portrait and Landscape */
 @media only screen and (min-device-width: 812px) and (max-device-width: 1680px) {
   * {
-    --photo-size: 133px;
+    --photo-size: 132px;
     --photo-sector-hight: 92px;
   }
 }
 
 /* IPhone Portrait and Landscape */
-@media only screen and (max-device-width: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   * {
     --photo-size: 100px;
     --photo-sector-hight: 70px;
+  }
+
+  .text {
+    font-size: 20px;
   }
 }
