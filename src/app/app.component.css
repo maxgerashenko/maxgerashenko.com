@@ -54,8 +54,8 @@
 
 .text {
   color: white;
-  padding-top: 30px;
-  font-size: 24px;
+  padding-top: 1em;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -63,8 +63,6 @@
   font-family: 'Print Clearly', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-
-.bold {
-  /* font-weight: 700; */
+.text span.bold {
   font-family: 'Print Bold';
 }
