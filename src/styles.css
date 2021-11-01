@@ -7,10 +7,6 @@
   padding: 0;
 }
 
-p {
-  font-family: Lato;
-}
-
 .take-all-visible-space {
   height: 100vh;
 }
