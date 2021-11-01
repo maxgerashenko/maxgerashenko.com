@@ -29,6 +29,17 @@
   align-items: center;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .photo {
   --size: 143px;
   background-image: var(--photo-url);
@@ -39,4 +50,15 @@
   height: var(--size);
   border: 4px solid #fff;
   margin-top: calc(50vh - 98px);
+}
+
+.text {
+  color: white;
+  padding-top: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
 }
