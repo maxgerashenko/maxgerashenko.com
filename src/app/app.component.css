@@ -40,8 +40,23 @@
   align-items: center;
 }
 
+/* Screen Portrait and Landscape */
+@media screen and (min-device-width: 812px) and (max-device-width: 1680px) {
+  * {
+    --photo-size: 133px;
+    --photo-sector-hight: 92px;
+  }
+}
+
+/* IPhone Portrait and Landscape */
+@media screen and (max-device-width: 812px) {
+  * {
+    --photo-size: 100px;
+    --photo-sector-hight: 70px;
+  }
+}
+
 .photo {
-  --photo-size: 143px;
   background-image: var(--photo-url);
   background-size: var(--photo-size) var(--photo-size);
   position: relative;
@@ -49,7 +64,7 @@
   width: var(--photo-size);
   height: var(--photo-size);
   border: 4px solid #fff;
-  margin-top: calc(50vh - 98px);
+  margin-top: calc(50vh - var(--photo-sector-hight));
   transform-style: preserve-3d;
 }
 
@@ -70,7 +85,7 @@
 .text {
   color: white;
   padding-top: 1em;
-  font-size: 26px;
+  font-size: 1.6em;
   text-align: center;
 }
 
