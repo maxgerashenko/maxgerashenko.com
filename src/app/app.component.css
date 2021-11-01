@@ -40,22 +40,6 @@
   align-items: center;
 }
 
-/* Screen Portrait and Landscape */
-@media screen and (min-device-width: 812px) and (max-device-width: 1680px) {
-  * {
-    --photo-size: 133px;
-    --photo-sector-hight: 92px;
-  }
-}
-
-/* IPhone Portrait and Landscape */
-@media screen and (max-device-width: 812px) {
-  * {
-    --photo-size: 100px;
-    --photo-sector-hight: 70px;
-  }
-}
-
 .photo {
   background-image: var(--photo-url);
   background-size: var(--photo-size) var(--photo-size);
@@ -85,7 +69,7 @@
 .text {
   color: white;
   padding-top: 1em;
-  font-size: 1.6em;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -95,4 +79,20 @@
 
 .text span.bold {
   font-family: 'Print Bold';
+}
+
+/* Screen Portrait and Landscape */
+@media only screen and (min-device-width: 812px) and (max-device-width: 1680px) {
+  * {
+    --photo-size: 133px;
+    --photo-sector-hight: 92px;
+  }
+}
+
+/* IPhone Portrait and Landscape */
+@media only screen and (max-device-width: 812px) {
+  * {
+    --photo-size: 100px;
+    --photo-sector-hight: 70px;
+  }
 }
