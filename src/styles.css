@@ -1,5 +1,7 @@
 /* Add application styles & imports to this file! */
-@import url('https://fonts.cdnfonts.com/css/print-clearly');
+@import url(https://fonts.cdnfonts.com/css/print-clearly);
+
+@import url(https://cdn.jsdelivr.net/npm/@mdi/font@6.4.95/css/materialdesignicons.min.css);
 
 * {
   box-sizing: border-box;
