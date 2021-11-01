@@ -58,14 +58,13 @@
   --half-photo-size: calc(var(--photo-size) / 2);
   content: '';
   position: absolute;
-  margin-left: calc(-1 * var(--shaddow-size));
-  margin-top: calc(var(--photo-size) / 2);
-  width: calc(var(--photo-size) + var(--shaddow-size));
-  height: calc(var(--photo-size) / 2);
   background-color: hsla(0, 0%, 100%, 0.46);
-  border-bottom-left-radius: var(--half-photo-size);
-  border-bottom-right-radius: var(--half-photo-size);
   transform: translateZ(-1px);
+  border-radius: 50%;
+  height: calc(var(--photo-size) + var(--shaddow-size));
+  width: calc(var(--photo-size) + var(--shaddow-size));
+  margin-top: calc(-1 * var(--shaddow-size));
+  margin-left: calc(-1 * var(--shaddow-size));
 }
 
 .text {
