@@ -59,6 +59,12 @@
   text-align: center;
 }
 
+.text span {
+  font-family: 'Print Clearly', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
 .bold {
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-family: 'Print Bold';
 }
